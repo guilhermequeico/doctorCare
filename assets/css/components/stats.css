@@ -1,0 +1,29 @@
+.stats {
+    width: 32.7rem;
+    height: 47rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 auto;
+    padding: 4rem 0;
+    
+    border: 1px solid var(--brand-green-light);
+    border-radius: .6rem;
+    background-color: var(--brand-beige);
+}
+
+.stat h3 {
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: var(--gray-headline);
+}
+
+.stat p {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--brand-green);
+}
