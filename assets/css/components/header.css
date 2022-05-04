@@ -1,12 +1,12 @@
 header {
-    margin-top: 4.1rem;
+    margin-top: calc(4.1rem + var(--nav-height));
 }
 
 header::before {
     content: '';
     display: block;
     width: 100vw;
-    height: 108rem;
+    height: calc(108rem + var(--nav-height));
     background-color: var(--brand-green-light);
 
     position: absolute;

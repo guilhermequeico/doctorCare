@@ -6,6 +6,8 @@
     --paragraph: hsl(210, 9%, 31%);
 
     font-size: 62.5%;
+
+    --nav-height: 7.2rem;
 }
 
 body {
