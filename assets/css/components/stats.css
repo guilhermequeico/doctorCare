@@ -4,11 +4,11 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    gap: 6rem;
 
-    margin: 0 auto;
-    padding: 4rem 0;
+    margin-inline: auto;
+    padding-block: 4rem;
     
     border: 1px solid var(--brand-green-light);
     border-radius: .6rem;
@@ -23,7 +23,6 @@
 
 .stat p {
     margin: 0;
-    font-size: 1.6rem;
     font-weight: 400;
     color: var(--brand-green);
 }

@@ -1,12 +1,10 @@
 :root {
-    --primary-color: hsl(170, 100%, 26%);
-    --headline: hsl(210, 11%, 15%);
+    --brand-green: hsl(170, 100%, 26%);
+    --brand-green-light: hsl(148, 23%, 89%);
+    --brand-beige: hsl(39, 100%, 97%);
+    --gray-headline: hsl(210, 11%, 15%);
     --paragraph: hsl(210, 9%, 31%);
-    --brand-beige: #FFFAF1;
-    --brand-green: #00856F;
-    --brand-green-light: #DCE9E2;
-    --gray-headline: #212529;
-
+    
     font-size: 62.5%;
 }
 
