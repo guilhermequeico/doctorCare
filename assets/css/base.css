@@ -4,7 +4,7 @@
     --brand-beige: hsl(39, 100%, 97%);
     --gray-headline: hsl(210, 11%, 15%);
     --paragraph: hsl(210, 9%, 31%);
-    
+
     font-size: 62.5%;
 }
 
@@ -13,4 +13,10 @@ body {
     font-size: 1.6rem;
 
     text-align: center;
+}
+
+.wrapper {
+    width: 37.5rem;
+    margin-inline: auto;
+    padding-inline: 2.4rem;
 }
