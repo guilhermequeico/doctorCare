@@ -1,6 +1,6 @@
-body.menu-expanded {
+/* body.menu-expanded {
     overflow: hidden;
-}
+} */
 
 body.menu-expanded > :not(#navigation) {
     display: none;
@@ -73,35 +73,3 @@ body.menu-expanded .logo path {
     align-items: center;
     gap: 3.2rem;
 }
-
-
-
-
-/* 
-body.menu-expanded button path {
-    stroke: #FFF;
-}
-
-.menu, 
-.close-menu,
-body.menu-expanded .open-menu {
-    opacity: 0;
-    visibility: hidden;
-}
-
-body.menu-expanded .menu,
-body.menu-expanded .close-menu {
-    opacity: 1;
-    visibility: visible;
-}
-
-
-
-body.menu-expanded #navigation {
-    position: relative;
-}
-
-
-
-
- */
