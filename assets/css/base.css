@@ -1,6 +1,7 @@
 :root {
     --brand-green: hsl(170, 100%, 26%);
-    --brand-green-light: hsl(148, 23%, 89%);
+    --brand-green-light: hsl(152, 23%, 89%);
+    --brand-green-light-02: hsl(180, 14%, 97%);
     --brand-beige: hsl(39, 100%, 97%);
     --gray-headline: hsl(210, 11%, 15%);
     --paragraph: hsl(210, 9%, 31%);
@@ -8,6 +9,10 @@
     font-size: 62.5%;
 
     --nav-height: 7.2rem;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 html, body {
@@ -18,10 +23,9 @@ html, body {
 body {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.6rem;
-
     text-align: center;
-
     overflow: overlay;
+    background-color: var(--brand-green-light-02);
 }
 
 .wrapper {
@@ -32,4 +36,8 @@ body {
 
 ul {
     list-style: none;
+}
+
+section {
+    padding-block: 10rem;
 }

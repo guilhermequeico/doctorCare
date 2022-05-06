@@ -1,0 +1,50 @@
+#services header {
+    margin-top: 0;
+}
+
+#services header h4 {
+    font-weight: 700;
+    line-height: 2.1rem;
+    letter-spacing: 0.08em;
+}
+
+#services header h2 {
+    margin-bottom: 6rem;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.9rem;
+    color: var(--gray-headline);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.card {
+    height: 20.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.4rem;
+    text-align: left;
+    background-color: #FFF;
+    border-radius: .6rem;
+    border: 1px solid var(--brand-green-light);
+}
+
+.card h3 {
+    width: 28.3rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.1rem;
+    color: var(--gray-headline);
+}
+
+.card p {
+    width: 27.9rem;
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}

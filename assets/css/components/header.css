@@ -1,8 +1,8 @@
-header {
-    margin-top: calc(4.1rem + var(--nav-height));
+#home {
+    padding-top: calc(4.1rem + var(--nav-height));
 }
 
-header::before {
+#home::before {
     content: '';
     display: block;
     width: 100%;
@@ -39,7 +39,7 @@ p {
     color: var(--paragraph);
 }
 
-header button {
+#home button {
     width: 26.3rem;
     height: 6.2rem;
 
@@ -62,7 +62,7 @@ header button {
     background-color: var(--brand-green);
 }
 
-header > img {
+#home > img {
     display: block;
     width: 26.3rem;
     height: 34.253rem;
