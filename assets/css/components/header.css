@@ -5,7 +5,7 @@ header {
 header::before {
     content: '';
     display: block;
-    width: 100vw;
+    width: 100%;
     height: calc(108rem + var(--nav-height));
     background-color: var(--brand-green-light);
 
@@ -39,7 +39,7 @@ p {
     color: var(--paragraph);
 }
 
-button {
+header button {
     width: 26.3rem;
     height: 6.2rem;
 
