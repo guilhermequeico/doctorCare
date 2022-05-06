@@ -1,7 +1,3 @@
-/* body.menu-expanded {
-    overflow: hidden;
-} */
-
 body.menu-expanded > :not(#navigation) {
     display: none;
 }
