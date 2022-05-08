@@ -14,6 +14,39 @@
         <link rel="stylesheet" href="./assets/css/base.css">
     </head>
     <body>
-        
+        <nav id="navigation">
+            <div class="wrapper">
+                <a href="#" class="logo">
+                    <img src="./assets/img/logo.svg" alt="Logo da DoctorCare">
+                </a>
+                <div class="menu">
+                    <ul>
+                        <li><a href="">Início</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Serviços</a></li>
+                        <li><a href="">Depoimentos</a></li>
+                    </ul>
+                    <a href="#" class="button">Agende sua consulta</a>
+                    <ul class="social-links">
+                        <li><a target="_blank" href="https://instagram.com/">
+                            <img src="./assets/img/icon-instagram.svg" alt="Logo Instagram">
+                        </a></li>
+                        <li><a target="_blank" href="https://facebook.com/">
+                            <img src="./assets/img/icon-facebook.svg" alt="Logo Facebook">
+                        </a></li>
+                        <li><a target="_blank" href="https://youtube.com/">
+                            <img src="./assets/img/icon-youtube.svg" alt="Logo YouTube">
+                        </a></li>
+                    </ul>
+                </div>
+                <button aria-expanded="false" aria-label="Abrir menu" onclick="openMenu()" class="open-menu">
+                    <img src="./assets/img/icon-menu.svg" alt="Ícone abrir menu">
+                    <img src="./assets/img/icon-menu-white.svg" alt="Ícone abrir menu">
+                </button>
+                <button aria-expanded="true" aria-label="Fechar menu" onclick="closeMenu()" class="close-menu">
+                    <img src="./assets/img/icon-close.svg" alt="Ícone fechar menu">
+                </button>
+            </div>
+        </nav>
     </body>
 </html>
