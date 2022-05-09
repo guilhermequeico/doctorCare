@@ -17,3 +17,7 @@ body {
     font-size: 1.6rem;
     background-color: var(--brand-green-light-02);
 }
+
+ul {
+    list-style: none;
+}
