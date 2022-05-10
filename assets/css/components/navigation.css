@@ -1,0 +1,34 @@
+#navigation .menu,
+#navigation .close-menu {
+    display: none;
+}
+
+#navigation {
+    height: 7.2rem;
+    display: flex;
+    background-color: var(--brand-green-light);
+}
+
+#navigation .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navigation button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#navigation.scroll {
+    background-color: var(--brand-green);
+}
+
+#navigation.scroll .logo svg path {
+    fill: #FFF;
+}
+
+#navigation.scroll .open-menu path {
+    stroke: #FFF;
+}
