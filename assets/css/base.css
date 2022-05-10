@@ -10,11 +10,14 @@
     --white: #EDEDED;
 
     font-size: 62.5%;
+
+    --nav-height: 7.2rem;
 }
 
 body {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.6rem;
+    text-align: center;
     background-color: var(--brand-green-light-02);
 }
 
