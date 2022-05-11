@@ -1,44 +1,56 @@
-body.menu-expanded #navigation {
-    background-color: var(--brand-green);
+body.menu-expanded {
+    overflow: hidden;
+}
+
+body.menu-expanded .close-menu {
+    display: block;
+}
+
+.menu {
+    transform: translateY(100%);
+}
+
+.menu,
+.close-menu,
+body.menu-expanded .open-menu {
+    opacity: 0;
+    visibility: hidden;
+}
+
+body.menu-expanded .menu,
+body.menu-expanded .close-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+body.menu-expanded .logo,
+body.menu-expanded button {
+    position: relative;
+    z-index: 100;
 }
 
 body.menu-expanded .logo path {
     fill: #FFF;
 }
 
-body.menu-expanded #navigation .open-menu {
-    display: none;
+body.menu-expanded button path {
+    stroke: #FFF;
 }
 
-body.menu-expanded #navigation .close-menu {
-    display: block;
-}
-
-body.menu-expanded #navigation .logo,
-body.menu-expanded #navigation .close-menu {
-    position: relative;
-    z-index: 1;
-}
-
-body.menu-expanded > :not(#navigation) {
-    display: none;
-}
-
-body.menu-expanded {
-    background-color: var(--brand-green);
-}
-
-body.menu-expanded #navigation .menu {
-    display: block;
+body.menu-expanded .menu {
     width: 100vw;
     height: 100vh;
+    padding-top: var(--nav-height);
     position: fixed;
     top: 0;
     left: 0;
+    background-color: var(--brand-green);
+    transition: transform 300ms;
+    transform: translateY(0);
 }
 
-body.menu-expanded #navigation .menu ul:nth-child(1) {
-    padding-top: calc(6rem + var(--nav-height));
+body.menu-expanded .menu ul:nth-child(1) {
+    margin-top: 6rem;
     margin-bottom: 4.8rem;
     display: flex;
     flex-direction: column;
@@ -46,14 +58,14 @@ body.menu-expanded #navigation .menu ul:nth-child(1) {
     gap: 4.8rem;   
 }
 
-body.menu-expanded #navigation .menu ul li a {
+body.menu-expanded .menu ul li a {
     font-size: 2.4rem;
     font-weight: 700;
     text-decoration: none;
     color: var(--brand-beige);
 }
 
-body.menu-expanded #navigation .button {
+body.menu-expanded .button {
     display: inline-block;
     width: 27.4rem;
     height: 5.5rem;
@@ -68,7 +80,7 @@ body.menu-expanded #navigation .button {
     border-radius: 4rem;
 }
 
-body.menu-expanded #navigation .social-links {
+body.menu-expanded .social-links {
     padding: 0;
     display: flex;
     justify-content: center;
