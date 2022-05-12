@@ -5,7 +5,7 @@ header {
 header::before {
     content: '';
     display: block;
-    width: 100%;
+    width: 100vw;
     height: calc(108rem + var(--nav-height));
     position: absolute;
     top: 0;
