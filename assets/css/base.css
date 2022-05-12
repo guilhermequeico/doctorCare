@@ -14,6 +14,12 @@
     --nav-height: 7.2rem;
 }
 
+html, 
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
 body {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.6rem;
