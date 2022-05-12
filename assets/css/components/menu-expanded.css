@@ -2,6 +2,10 @@ body.menu-expanded {
     overflow: hidden;
 }
 
+body.menu-expanded > :not(#navigation) {
+    display: none;
+}
+
 body.menu-expanded .close-menu {
     display: block;
 }
