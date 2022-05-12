@@ -9,6 +9,7 @@ header::before {
     height: calc(108rem + var(--nav-height));
     position: absolute;
     top: 0;
+    left: 0;
     z-index: -1;
     background-color: var(--brand-green-light);
 }
@@ -22,7 +23,6 @@ h4 {
 }
 
 h1 {
-    width: 32.7rem;
     margin: 0 auto 2.4rem;
     font-size: 3.4rem;
     line-height: 4.42rem;
@@ -30,7 +30,6 @@ h1 {
 }
 
 p {
-    width: 32.7rem;
     margin: 0 auto 3.2rem;
     font-size: 1.8rem;
     font-weight: 400;
