@@ -5,8 +5,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
-    top: calc(82.8rem + var(--nav-height));
+    position: relative;
+    bottom: 2rem;
     margin: 0 auto;
     padding: 4rem 0;
     border: 1px solid var(--brand-green-light);
