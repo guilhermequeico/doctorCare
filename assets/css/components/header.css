@@ -1,5 +1,5 @@
 header {
-    margin-top: calc(4rem + var(--nav-height));
+    padding-top: calc(4rem + var(--nav-height));
 }
 
 header::before {
