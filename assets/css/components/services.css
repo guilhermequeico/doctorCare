@@ -1,0 +1,13 @@
+#services {
+    padding-top: 8rem;
+}
+#services header {
+    margin-top: 0;
+}
+
+#services header h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.9rem;
+    color: var(--gray-headline);
+}
