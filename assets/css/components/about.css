@@ -1,0 +1,17 @@
+#about {
+    background-color: var(--brand-beige);
+    text-align: left;
+}
+
+#about h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.9rem;
+}
+
+#about p {
+    margin-top: 2.4rem;
+    margin-bottom: 6rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}

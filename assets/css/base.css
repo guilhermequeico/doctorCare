@@ -39,3 +39,7 @@ ul {
 section {
     padding-block: 10rem;
 }
+
+img {
+    max-width: 100%;
+}
