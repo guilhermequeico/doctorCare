@@ -3,7 +3,7 @@ body.menu-expanded {
 }
 
 body.menu-expanded > :not(#navigation) {
-    display: none;
+    visibility: hidden;
 }
 
 body.menu-expanded .close-menu {
