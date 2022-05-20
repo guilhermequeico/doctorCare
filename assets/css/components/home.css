@@ -1,5 +1,6 @@
 #home {
     padding-top: calc(4rem + var(--nav-height));
+    padding-bottom: 0;
 }
 
 #home::before {
