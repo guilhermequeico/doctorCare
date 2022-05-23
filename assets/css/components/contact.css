@@ -1,0 +1,45 @@
+#contact {
+    background-color: #FFF;
+    text-align: left;
+}
+
+#contact h2 {
+    width: 29.7rem;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.9rem;
+    color: var(--gray-headline);
+}
+
+#contact .content ul {
+    margin-block: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+#contact .content ul li {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    font-weight: 400;
+    color: var(--gray-paragraph);
+}
+
+#contact .button {
+    width: 26.7rem;
+    height: 5.6rem;
+    margin-bottom: 6rem;
+    padding: 1.6rem 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+    border-radius: 4rem;
+    background-color: var(--brand-green);
+}
