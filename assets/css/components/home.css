@@ -38,7 +38,7 @@ p {
     color: var(--gray-paragraph);
 }
 
-#home button {
+#home .button {
     width: 26.3rem;
     height: 5.2rem;
     display: flex;
@@ -50,6 +50,7 @@ p {
     font-size: 1.4rem;
     font-weight: 700;
     text-transform: uppercase;
+    text-decoration: none;
     color: #FFF;
     border: none;
     border-radius: 4rem;
