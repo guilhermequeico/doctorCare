@@ -42,4 +42,9 @@
     color: #FFF;
     border-radius: 4rem;
     background-color: var(--brand-green);
+    transition: background 200ms;
+}
+
+#contact .button:hover {
+    background-color: var(--brand-green-hover);
 }
