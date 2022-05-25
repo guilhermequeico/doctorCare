@@ -28,7 +28,6 @@ body {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.6rem;
     text-align: center;
-    overflow: overlay;
     background-color: var(--brand-green-light-02);
 }
 
