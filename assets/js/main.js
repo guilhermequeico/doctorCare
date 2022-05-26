@@ -32,4 +32,6 @@ ScrollReveal({
     distance: '30px', 
     duration: 700}).reveal(`#home, #home img, #home .stats,
     #services, #services header, #services .card,
-    #about #about header, #about .content`);
+    #about, #about header, #about .content,
+    #contact, #contact header, #contact .content,
+    #footer, #footer a, #footer .copy, #footer .social-links`);
