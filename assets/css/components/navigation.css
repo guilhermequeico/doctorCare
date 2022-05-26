@@ -35,3 +35,9 @@ nav.scroll .logo path {
 nav.scroll button path {
     stroke: #FFF;
 }
+
+@media (min-width: 1024px) {
+    nav .open-menu {
+        display: none;
+    }
+}
