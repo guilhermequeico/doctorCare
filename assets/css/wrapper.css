@@ -7,6 +7,11 @@
 @media (min-width: 1024px) {
     .wrapper {
         width: min(112rem, 100%);
+    }
+}
+
+@media (min-width: 1168px) {
+    .wrapper {
         padding-inline: 0;
     }
 }
