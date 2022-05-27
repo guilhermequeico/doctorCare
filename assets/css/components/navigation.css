@@ -62,6 +62,7 @@ nav.scroll button path {
         transition: opacity .4s;
     }
 
+    nav .menu ul li a.active,
     nav .menu ul li a:hover {
         font-weight: 700;
         opacity: 1;
@@ -79,6 +80,7 @@ nav.scroll button path {
         transition: width .2s;
     }
 
+    nav .menu ul li a.active::after,
     nav .menu ul li a:hover::after {
         width: 100%;
         padding-inline: 1rem;
@@ -89,6 +91,7 @@ nav.scroll button path {
         opacity: 0.6;
     }
 
+    nav.scroll .menu ul li a.active,
     nav.scroll .menu ul li a:hover {
         opacity: 1;
     }
