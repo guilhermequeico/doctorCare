@@ -49,6 +49,7 @@ p {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
+    line-height: 1.8rem;
     text-transform: uppercase;
     text-decoration: none;
     color: #FFF;
@@ -65,4 +66,49 @@ p {
 #home > img {
     display: block;
     margin-inline: auto;
+}
+
+@media (min-width: 1024px) {
+    #home .wrapper {
+        grid-template-columns: 60.5rem 1fr;
+        grid-template-areas:
+        'left-column right-column'
+        'stats stats';
+    }
+
+    #home .left-column {
+        grid-area: left-column;
+        text-align: left;
+        align-self: center;
+    }
+
+    #home header h4 {
+        font-weight: 700;
+        line-height: 2.1rem;
+    }
+
+    #home header h1 {
+        font-size: 5.2rem;
+        font-weight: 700;
+        line-height: 6.8rem;
+    }
+
+    #home .button {
+        margin: 0;
+    }
+
+    #home .right-column {
+        grid-area: right-column;
+    }
+
+    #home .stats {
+        grid-area: stats;
+    }
+}
+
+@media (min-width: 1168px) {
+    #home img {
+        width: 42rem;
+        height: 54.7rem;
+    }
 }
