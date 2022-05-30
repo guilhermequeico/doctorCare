@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    bottom: 2.4rem;
+    bottom: .5rem;
     margin: 0 auto;
     padding: 4rem 0;
     border: 1px solid var(--brand-green-light);
@@ -25,4 +25,20 @@
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--brand-green);
+}
+
+@media (min-width: 1024px) {
+    .stats {
+        height: 21rem;
+        flex-direction: row;
+        bottom: 2.6rem;
+    }
+
+    .stats .stat {
+        flex: 1;
+    }
+
+    .stats .stat + .stat {
+        border-left: 1px solid rgba(0, 133, 111, .5);
+    }
 }
