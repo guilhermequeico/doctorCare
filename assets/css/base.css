@@ -42,3 +42,9 @@ section {
 img {
     max-width: 100%;
 }
+
+@media (min-width: 1024px) {
+    section {
+        padding-block: 16rem;
+    }
+}
