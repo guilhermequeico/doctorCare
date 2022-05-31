@@ -16,3 +16,35 @@
     font-size: 1.6rem;
     line-height: 2.4rem;
 }
+
+@media (min-width: 1024px) {
+    #about .wrapper {
+        grid-template-columns: 48rem 1fr;
+        grid-template-areas: 
+        'right-column left-column';
+        gap: 6.7rem;
+    }
+
+    #about .left-column {
+        grid-area: left-column;
+        align-self: center;
+    }
+
+    #about h4 {
+        margin-bottom: 1rem;
+    }
+
+    #about h2 {
+        width: 44.7rem;
+        font-size: 4rem;
+        line-height: 5.2rem;
+    }
+
+    #about p {
+        margin-bottom: 0;
+    }
+
+    #about .right-column {
+        grid-area: right-column;
+    }
+}
