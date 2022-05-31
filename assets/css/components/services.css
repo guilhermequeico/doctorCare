@@ -13,4 +13,11 @@
     #services {
         padding-top: calc(16rem - 2.6rem);
     }
+
+    #services header h2 {
+        width: 49.7rem;
+        margin: 0 auto;
+        font-size: 4rem;
+        line-height: 5.2rem;
+    }
 }
