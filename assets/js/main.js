@@ -1,6 +1,11 @@
 function onScroll() {
     showNavOnScroll()
     showBackToTopButtonOnScroll()
+    activateMenuAtCurrentSection()
+}
+
+function activateMenuAtCurrentSection() {
+    
 }
 
 function showNavOnScroll() {
